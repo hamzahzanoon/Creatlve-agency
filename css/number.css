@@ -1,0 +1,50 @@
+/* number section */
+
+.number {
+    min-height: 55vh;
+    position: relative;
+    background-image: url(../images/a4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.number-items {
+    overflow: hidden;
+    padding: 120px;
+}
+
+.number-items .number-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.number-item .icon {
+    color: #6195ff;
+    margin-bottom: 20px;
+}
+
+.number-item .number-titel {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.number-item .number-span {
+    color: #fff;
+}
+ 
+@media (max-width:550px) {
+    .number-items .number-item {
+        width: 95%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .number {
+        min-height: 140vh;
+        position: relative;
+        background-image: url(../images/a4.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}

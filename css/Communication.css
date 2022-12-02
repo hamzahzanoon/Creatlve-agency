@@ -1,0 +1,164 @@
+/* Communication */
+
+.Communication {
+    min-height: 150vh;
+}
+
+.contianer {
+    overflow: hidden;
+}
+
+.Communication-item {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 0 0 0 30px;
+}
+
+.Communication-item i {
+    color: #6195ff;
+    padding-bottom: 20px;
+}
+
+.Communication-item .fa-address-card {
+    font-size: 30px;
+} 
+
+.Communication-titel {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Communication-span {
+    color: #999999;
+}
+
+.Communication-inpte .name {
+    width: 30%;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    margin: 0 0 50px 250px ;
+} 
+
+.Communication-inpte .name:hover {
+    border:2px solid #6195ff;
+    color: #6195ff;
+}
+
+.Communication-inpte .email {
+    width: 30%;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    margin: 100px 30px 10px 10px;
+}
+
+
+.Communication-inpte .email:hover {
+    border:2px solid #6195ff;
+    color: #6195ff;
+}
+
+.Communication-inpte .subject {
+    width: 61.2%;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    margin: 0 0 0px 250px ;
+} 
+
+.Communication-inpte .subject:hover {
+    border:2px solid #6195ff;
+    color: #6195ff;
+}
+
+.Communication-inpte .message {
+    width: 61.2%;
+    height: 90px;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    margin: 10px 0 0px 250px ;
+} 
+
+.Communication-inpte .message:hover {
+    border:2px solid #6195ff;
+    color: #6195ff;
+}
+
+.Communication-button {
+    background-color: #6195ff;
+    padding: 20px;
+    width: 20%;
+    margin: 20px 0 0 530px;   
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.8s; 
+}
+
+.Communication-button:hover {
+    background-color: #fff;
+    color: #6195ff;
+    border: 2px solid #6195ff;
+    border-radius: 10px;
+}
+
+@media (max-width:1000px) {
+    .Communication-item {
+        width: 28%;
+        float: left;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:812px) {
+    .Communication-item {
+        width: 45%;
+        float: left;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .Communication-button {
+        background-color: #6195ff;
+        padding: 20px;
+        width: 25%;
+        margin: 20px 0 0 530px;   
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.8s; 
+    }
+}
+
+@media (max-width:620px) {
+    .Communication-item {
+        width: 95%;
+        float: left;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .Communication-inpte {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .Communication-button {
+        background-color: #6195ff;
+        padding: 20px;
+        width: 25%;
+        margin: 20px 0 0 530px;   
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.8s; 
+    }
+}

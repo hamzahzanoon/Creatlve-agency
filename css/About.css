@@ -1,0 +1,134 @@
+/* About section */
+
+.about {
+    min-height: 60vh;
+}
+
+.section-header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-header .section-titel {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-header .line {
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #6195ff;
+    margin: 10px auto 70px auto;  
+} 
+
+.about-content {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-content .about-item {
+    padding: 30px;
+    width: 97%;
+    margin: 0 10px 10px 0;
+} 
+
+.section-titel {
+    margin-top: 100px;
+}
+
+.about-item {
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 2px solid #e8e8e8;
+    padding: 50px 25px;
+}
+
+
+
+.about-item .icon {
+    color: #6195ff;
+    margin-bottom: 20px;
+}
+
+.about-title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-p {
+    line-height: 25px;
+    color: #899999;
+}
+
+.about-link {
+    color: #fff;
+    display: block;
+    padding: 20px ;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #6195ff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+@media (max-width:900px) {
+    .section-header {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .section-header .section-titel {
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .about-content {
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-link {
+        color: #fff;
+        display: block;
+        padding: 15px ;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        background-color: #6195ff;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+} 
+
+@media (max-width:500px) {
+    .section-header {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .section-header .section-titel {
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .about-content {
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-link {
+        color: #fff;
+        display: block;
+        padding: 10px ;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+        background-color: #6195ff;
+        border-radius: 10px;
+        margin-top: 13px;
+    }
+} 

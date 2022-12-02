@@ -1,0 +1,145 @@
+/********* FOOTER *********/
+footer {
+    background: radial-gradient(rgb(3, 16, 115) , rgb(2, 11, 81), rgb(1, 7, 51));
+    min-height: 84vh;
+}
+
+.foort {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding: 50px 0;
+}
+
+.branch2 {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.title2 h1,h3 {
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.title2 p {
+    width: 390px;
+    letter-spacing: 0.8px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.branch-contact {
+    width: 320px;
+}
+
+.branch-contact i {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(3, 17, 143);
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px 10px 0 0;
+}
+
+.branch-contact span {
+    padding: 20px 0;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.branch-social {
+    margin: 30px 0 0 0;
+}
+
+.branch-social i {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.branch-social i:hover {
+    color: rgb(255, 255, 255);
+    padding: 7px 15px;
+}
+
+.title2 input {
+    width: 78%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.item-footer ul li {
+    color: #fff;
+    margin-bottom: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.item-footer ul a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.saved {
+    margin-top: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.saved span {
+    font-size: 20px;
+}
+
+@media (max-width:800px) {
+    .foort {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 0;
+    }
+}
+
+@media (max-width:450px) {
+    .foort {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 0;
+    }
+    .branch2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .title2 p {
+        width: 300px;
+        letter-spacing: 0.8px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    .branch-social i {
+        color: #fff;
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 8px;
+        text-transform: uppercase;
+        transition: 0.5s;
+    }
+    .branch-contact span {
+        padding: 20px 0;
+        color: #fff;
+        font-size: 18px;
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+    .last-main {
+        display: none;
+    }
+}

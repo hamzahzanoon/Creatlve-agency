@@ -1,0 +1,92 @@
+/* offer section  */
+
+    .offers {
+        min-height: 100vh;
+    }
+
+    .offer-container {
+        overflow: hidden;
+    }
+    
+    .offer-itme {
+        width: 30%;
+        float: left;
+        margin: 15px;
+        border: 2px solid #eee;
+        padding: 20px 10px 30px 70px;
+        position: relative;
+        transition: 0.9s;
+    }
+    
+    .offer-itme:hover {
+        background-color: rgba(0,0,0,0.7);
+        color: #fff;
+    } 
+    
+    .offer-itme .icon {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: #6195ff;
+    }
+    
+    .offer-itme .offer-title {
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    
+    .offer-itme .offer-p {
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        line-height:25px;
+        color: #999999;
+    }
+
+    @media (max-width:1200px) {
+        .offer-itme {
+            width: 27%;
+            float: left;
+            margin: 15px;
+            border: 2px solid #eee;
+            padding: 20px 10px 30px 70px;
+            position: relative;
+            transition: 0.9s;
+        }
+    }
+
+    @media (max-width:900px) {
+        .offer-itme {
+            width: 43%;
+            float: left;
+            margin: 15px;
+            border: 2px solid #eee;
+            padding: 20px 10px 30px 70px;
+            position: relative;
+            transition: 0.9s;
+        }
+        .offer-itme .icon {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: #6195ff;
+        }
+    }
+
+    @media (max-width:550px) {
+        .offer-itme {
+            width: 95%;
+            float: left;
+            margin: 15px;
+            border: 2px solid #eee;
+            padding: 20px 10px 30px 70px;
+            position: relative;
+            transition: 0.9s;
+        }
+       .offer-itme .icon {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            color: #6195ff;
+        }
+    }

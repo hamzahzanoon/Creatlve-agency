@@ -1,0 +1,74 @@
+/* testimonail section */ 
+
+.testimonail {
+    position: relative;
+    overflow: hidden;
+    min-height: 60vh;
+    background-image: url(../images/buildings-2297210_640.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+.testimonail-content {
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.testimonail-items {
+    width: 50%;
+    float: left;
+    color: #fff;
+}
+
+.testimonail-items .testimonail-item {
+    padding: 40px 0 10px 125px;
+    position: relative;
+}
+
+.testimonail-items img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.testimonail-items .testimonail-item h2 {
+    text-transform: uppercase;
+}
+
+.testimonail-items .testimonail-item span {
+    text-transform: uppercase;
+    display: block;
+    margin: 9px 0;
+    color: #6195ff;
+} 
+
+.testimonail-p {
+    line-height: 25px;
+    padding: 0 90px 0 0 ;
+}
+
+@media (max-width:550px) {
+    .testimonail-items {
+        width: 95%;
+        float: left;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .testimonail {
+        position: relative;
+        overflow: hidden;
+        min-height: 60vh;
+        background-image: url(../images/buildings-2297210_640.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 40px;
+        height: 700px;
+    }
+    .testimonail-p {
+        width: 100%;
+        text-align: center;
+        line-height: 25px;
+        margin-left: 40px;
+    }
+}
